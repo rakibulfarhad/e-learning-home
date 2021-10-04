@@ -14,10 +14,11 @@
     font-weight: bold;
     font-size: 59px;
   }
-  .about-btn {
-    background-color: #ff0505;
+  .click-btn {
+    background-color:crimson;
     outline: none;
-    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
     padding: 17px 34px;
     color: white;
   }

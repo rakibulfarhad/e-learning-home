@@ -9,20 +9,16 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>Biona Sports Club</h1>
-                <div className="icons-container d-flex text-center ">
-                  
-                </div>
+                <h1>E-Learning Home</h1>
+                
                 <p className="mt-4 ">
                   <small>
-                    *These statements have not been evaluated by the Food and
-                    Drug Administration. These products are not intended to
-                    diagnose.
+                    ELH Online has arrived with learning programmes and certification at par with global standards which would create a significant impact on a youth’s future career.
                   </small>
                 </p>
 
                 <p className="mt-5">
-                  <small>Zemez © . All rights reserved.</small>
+                  <small>e-learning © . All rights reserved.</small>
                 </p>
               </div>
             </div>
@@ -30,10 +26,10 @@ const Footer = () => {
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
-                  <li className="footer-menu">Services</li>
-                  <li className="footer-menu">Sports</li>
-                  <li className="footer-menu">Contact us</li>
-                  <li className="footer-menu"> About us</li>
+                  <li className="footer-menu">Popular Course</li>
+                  <li className="footer-menu">Professional Course</li>
+                  <li className="footer-menu">About us</li>
+                  <li className="footer-menu"> Contact us</li>
                 </ul>
               </div>
             </div>
@@ -46,21 +42,16 @@ const Footer = () => {
                   placeholder="Enter Email"
                 />
                 <div className="phone d-flex align-items-center justify-content-center mt-4">
-                  <div className="foter-phone-icon">
-                    
-                  </div>
+                  
                   <div>
-                    <h5>+1 8 800 555 35 35</h5>
+                    <h5> Cell: +1 8 800 123 45 67</h5>
                   </div>
                 </div>
-                <div className="map d-flex align-items-center justify-content-center">
-                  <div className="foter-phone-icon">
-                 
-                  </div>
+                <div className="d-flex align-items-center justify-content-center">
                   <div>
                     <p>
-                      160 Broadway, New York, NY 10038,
-                      <br /> 102 1st Avenue, New York, NY 100
+                      H-43, block-c, Road No-8 ,
+                      <br />Niketon, Gulshan-1, Dhaka
                     </p>
                   </div>
                 </div>

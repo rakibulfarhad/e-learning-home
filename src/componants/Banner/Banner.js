@@ -15,7 +15,7 @@ const Banner = () => {
             <p className="text-white text-center mt-3">
             Online has arrived with learning programmes and certification at par with global standards which would create a significant impact on a youth’s future career. 
             </p>
-            <button className="mt-3 about-btn">Click</button>
+            <button className="mt-3 fs-5 click-btn">Click</button>
           </div>
           <div className="col-md-6"></div>
         </div>

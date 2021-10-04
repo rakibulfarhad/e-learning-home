@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div className="container">
+        <div className="container m-5">
             <h1 className="mx-3">About Us</h1>
             <p>E-Learning Home (ELH), is a learning institution of E-Learning Home where we provide various skills training. This time, E-Learning Home has come up with ELH Online which is a timeworthy digital platform to create a young generation, who are skilled and ready to build a career.</p>
 

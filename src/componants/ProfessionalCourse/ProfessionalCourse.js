@@ -15,9 +15,9 @@ useEffect( () => {
 
 
     return (
-        <div className="container">
+        <div className="container my-5">
             <div className="all-team">
-        <h1>Our Teams</h1>
+        <h1 className="m-5">Professional Course</h1>
       </div>
             <div className="teams">
         <div className="row">
@@ -25,7 +25,7 @@ useEffect( () => {
             <div className="col-md-4">
               <div className="cart">
                 <div className="cart-details">
-                  <img className="w-50" src={pd.img} alt="" />
+                  <img className="w-100" src={pd.img} alt="" />
                 </div>
                 <div className="text-area">
                   <p>Name: {pd.name}</p>

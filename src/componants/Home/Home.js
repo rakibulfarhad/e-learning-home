@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            
+            <PopularCourse/>
             
         </div>
     );

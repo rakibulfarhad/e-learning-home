@@ -4,31 +4,31 @@ import "./PopularCourse.css";
 
 const PopularCourse = () => {
 
-    const [popularCourse, setPopulaeCourse] = useState([]);
+  const [popularCourse, setPopulaeCourse] = useState([]);
 
-    useEffect( () => {
-        fetch('./course.json')
-        .then(res => res.json())
-        .then(data => setPopulaeCourse(data))
-    },[])
+  useEffect(() => {
+    fetch('./course.json')
+      .then(res => res.json())
+      .then(data => setPopulaeCourse(data))
+  }, [])
 
-    return (
-        <div className="container">
-            <div className="all-team">
-        <h1>Our Teams</h1>
+  return (
+    <div className="container my-5">
+      <div>
+        <h1 className="m-5">Pupolar Course</h1>
       </div>
-            <div className="teams">
+      <div>
         <div className="row">
           {popularCourse?.map((pd) => (
             <div className="col-md-4">
               <div className="cart">
                 <div className="cart-details">
-                  <img className="w-50" src={pd.img} alt="" />
+                  <img className="w-100" src={pd.img} alt="" />
                 </div>
                 <div className="text-area">
-                  <p>Name: {pd.name}</p>
-                  <p>Price: {pd.price}</p>
-                  <Link to={`/details/${pd.idTeam}`}>
+                  <h3>Name: {pd.name}</h3>
+                  <h5>Price: {pd.price}</h5>
+                  <Link to="/details">
                     <button className="btn btn-success">Details</button>
                   </Link>
                 </div>
@@ -37,8 +37,8 @@ const PopularCourse = () => {
           ))}
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default PopularCourse;
