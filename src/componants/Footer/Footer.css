@@ -5,7 +5,7 @@
     cursor: pointer;
   }
   .footer-menu:hover {
-    color: rgb(39, 39, 216);
+    color:darkred;
   }
   .footer-input {
     padding: 8px;
@@ -14,7 +14,7 @@
     background-color: gray;
   }
   .footer-container {
-    background-color: #191919;
+    background-color:rgb(6, 52, 98);
     padding: 50px;
     color: rgb(216, 209, 209);
   }

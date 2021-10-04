@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner-container ">
       <div className="">
         <div className="row d-flex banner align-items-center justify-content-center">
-          
+          <h1 className="text-white">Build Skill, Bright Your Future !!</h1>
           <div className="col-md-6">
             <h1 className="title">
               CLICK THROUGH YOUR <br /> NEXT CAREER
