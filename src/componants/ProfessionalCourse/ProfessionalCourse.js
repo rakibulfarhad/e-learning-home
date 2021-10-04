@@ -29,7 +29,7 @@ const ProfessionalCourse = () => {
                 </div>
                 <div className="text-area">
                   <h3>Name: {pd.name}</h3>
-                  <h5>Price: {pd.price}</h5>
+                  <h5>Price:$ {pd.price}</h5>
                   <Link to="/details">
                     <button className="btn btn-primary">Details</button>
                   </Link>
